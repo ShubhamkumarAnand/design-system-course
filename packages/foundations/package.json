@@ -1,7 +1,11 @@
 {
   "name": "@newline-ds/foundations",
   "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js"
+  },
   "devDependencies": {
+    "style-dictionary": "^3.9.1",
     "typescript": "^5.3.3"
   }
 }
