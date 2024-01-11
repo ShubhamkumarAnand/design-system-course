@@ -5,7 +5,8 @@
     "@newline-ds/foundations": "workspace:^"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "node lib/index.js"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
